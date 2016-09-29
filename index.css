@@ -1,3 +1,17 @@
+@import url('./fonts/fonts.css');
+
+.font-jhenghei {
+    font-family: 'JHengHei', Arial, sans-serif;
+}
+
+.font-optima {
+    font-family: 'Optima', Arial, sans-serif;
+}
+
+.font-hanwangming {
+    font-family: 'HanWangMing', Arial, sans-serif;
+}
+
 img.maximize-image {
     width: 100%;
     height: auto;
@@ -194,9 +208,13 @@ div.content .product-info-container a.btn-custom:hover {
         left: 50%;
     }
 
+    div.content .info-about {
+        margin: 25px auto;
+    }
+
     div.content .info-product {
-        margin-top: 50px;
-        margin-bottom: 50px;
+        margin-top: 25px;
+        margin-bottom: 25px;
     }
 
     div.content .product-image-container {
@@ -260,8 +278,12 @@ div.content .product-info-container a.btn-custom:hover {
         margin-right: auto;
     }
 
+    div.content .info-about {
+        margin: 25px auto;
+    }
+
     div.content .info-product {
-        margin: 50px auto;
+        margin: 25px auto;
         width: 290px;
     }
 

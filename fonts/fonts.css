@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'HanWangMing';
+    src: url('./HanWangMingHeavy.eot');
+    src: url('./HanWangMingHeavy.eot?#iefix') format('embedded-opentype'), url('./HanWangMingHeavy.woff') format('woff'), url('./HanWangMingHeavy.ttf') format('truetype'), url('./HanWangMingHeavy.svg#svgHanWangMing') format('svg');
+}
+
+@font-face {
+    font-family: 'JHengHei';
+    src: url('./MicrosoftJhengHeiLight.eot');
+    src: url('./MicrosoftJhengHeiLight.eot?#iefix') format('embedded-opentype'), url('./MicrosoftJhengHeiLight.ttf') format('truetype'), url('./MicrosoftJhengHeiLight.svg#svgJHengHei') format('svg');
+}
+
+@font-face {
+    font-family: 'Optima';
+    src: url('./Optima-Bold.eot');
+    src: url('./Optima-Bold.eot?#iefix') format('embedded-opentype'), url('./Optima-Bold.woff') format('woff'), url('./Optima-Bold.ttf') format('truetype'), url('./Optima-Bold.svg#svgOptima') format('svg');
+}
