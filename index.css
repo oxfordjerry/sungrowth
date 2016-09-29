@@ -64,6 +64,10 @@ div.content .product-info-container a.btn-custom:hover {
     color: white;
 }
 
+div.btn-container {
+    margin-bottom: 20px;
+}
+
 @media only screen and (min-width: 768px) {
 
     .font-size-1 {
