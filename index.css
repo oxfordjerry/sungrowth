@@ -173,6 +173,14 @@ div.purchase-container p.purchase-title {
         transform: translate(-50%, -50%);
     }
 
+    div.modal-header {
+        padding: 15px 15px 0;
+    }
+
+    div.modal-body {
+        padding: 0 30px 15px;
+    }
+
     div.purchase-container {
         position: relative;
     }
