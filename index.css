@@ -32,16 +32,7 @@ img.maximize-image {
     padding-bottom: 50px;
 }
 
-div.content .product-info-container ul {
-    padding-left: 20px;
-}
-
-div.content .product-info-container li {
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
-div.content .product-info-container a.btn-custom {
+a.btn-custom {
     padding: 10px 40px;
     border: 1px solid #f37d20;
     border-radius: 0;
@@ -54,18 +45,44 @@ div.content .product-info-container a.btn-custom {
     transition: background .5s, color .5s;
 }
 
+a.btn-custom:hover, a.btn-custom:focus {
+    background: #f37d20;
+    color: white;
+    outline: 0;
+}
+
+div.content .product-info-container ul {
+    padding-left: 20px;
+}
+
+div.content .product-info-container li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
 div.footer {
     padding-top: 40px;
     padding-bottom: 40px;
 }
 
-div.content .product-info-container a.btn-custom:hover {
-    background: #f37d20;
-    color: white;
-}
-
 div.btn-container {
     margin-bottom: 20px;
+}
+
+div.modal-header {
+    border: 0;
+}
+
+div.modal-content {
+    border-radius: 0;
+    border: 1px solid #f37d20;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+div.purchase-container p.purchase-title {
+    border-bottom: 1px solid #f37d20;
 }
 
 @media only screen and (min-width: 768px) {
@@ -127,6 +144,60 @@ div.btn-container {
         -o-transform: translateY(-50%);
         transform: translateY(-50%);
         padding-left: 15px;
+    }
+
+    div.modal .modal-dialog {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+
+    div.modal.in .modal-dialog {
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+
+    div.modal.fade .modal-dialog {
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+
+    div.purchase-container {
+        position: relative;
+    }
+
+    div.purchase-container .purchase-info {
+        width: 50%;
+    }
+
+    div.purchase-container .purchase-btn {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 50%;
+    }
+
+    div.purchase-container .purchase-btn .btn-container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
     }
 
 }
@@ -301,6 +372,20 @@ div.btn-container {
     div.footer {
         padding-left: 15px;
         padding-right: 15px;
+    }
+
+    div.modal-dialog {
+        margin: 0;
+    }
+
+    div.purchase-container .purchase-info {
+        padding-bottom: 30px;
+        border-bottom: 1px solid #384850;
+    }
+
+    div.purchase-container .purchase-btn {
+        padding-top: 30px;
+        text-align: center;
     }
 
 }
